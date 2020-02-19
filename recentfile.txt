@@ -1,0 +1,5 @@
+C:/Users/Administrator/PycharmProjects/GdataReforce/data1.dat  2
+C:/Users/Administrator/PycharmProjects/GdataReforce/814.txt  1
+C:/Python27/ENV/TData_Ana0811/bitana.txt  1
+C:/Python27/ENV/TData_Ana0811/ssss.txt  1
+C:/Python27/ENV/TData_Ana0811/814.txt  1
