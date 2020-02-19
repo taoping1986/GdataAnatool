@@ -13,16 +13,10 @@ from decimal import Decimal
 
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
-# from PyQt5.QtWidgets import QWidget,QMainWindow,QDialog,QTabWidget,QTextBrowser,QDockWidget
 from PyQt5.QtWidgets import *
 import sys, os, copy, re
-# import webbrowser
-# import qrc_resource
-# import shelve
-# import choose_menu,bit_item_set,bit_config,set_menu_name,State_Ana
 import State_Ana
 import config_menu, configVal_menu, DataSep
-# import config_set_menu
 import tablemod
 import DataImport
 
@@ -30,13 +24,6 @@ from picture import *
 import docset
 import sip
 
-# try:
-# _fromUtf8 = QString.fromUtf8
-# except AttributeError:
-# def _fromUtf8(s):
-#         return s
-
-# QTextCodec.setCodecForTr(QTextCodec.codecForName("utf8"))
 
 # 用于输出重定向  不能删
 str3 = []
@@ -50,9 +37,6 @@ class MainWindow(QMainWindow):
     def __init__(self, parent=None):
         super(MainWindow, self).__init__(parent)
         self.t = 0
-        # self.new_Dialog = QDialog(self)
-        # self.edit_Dialog = QDialog(self)
-        # self.item_Dialog = QDialog(self)
 
         self.choose_Dialog = QDialog(self)
         self.choose_Dialog_set = config_menu.Ui_Dialog()
